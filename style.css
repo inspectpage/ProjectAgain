@@ -158,8 +158,8 @@ ul {
 
 .Action-left{
     color: #F9FAF8;
-    min-width: 400px;
-    flex: 2;
+    min-width: 300px;
+    flex: 3;
 }
 
 .Action-right{
