@@ -38,7 +38,7 @@ ul {
     margin: 0 0;
     background-color: #1F2937;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 16px;
 }
 
 .Hero-main-text {
@@ -51,7 +51,6 @@ ul {
 
 .Hero-left{
     flex: 1;
-    max-width: 500px;
     min-width: 300px;
 }
 
@@ -66,11 +65,37 @@ button {
 
 .Hero-right{
     flex: 1;
-    max-width: 500px;
     min-width: 300px;
 }
 
 .Hero-right img{
     max-width: 100%;
+    height: auto;
+}
+
+.Information{
+    display:flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.Info-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 0 16%;
+    flex-wrap: wrap;
+
+}
+
+.images{
+    flex: 1;
+    max-width: 200px;
+
+}
+
+.images img{
+    width: 200px;
     height: auto;
 }
