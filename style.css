@@ -54,7 +54,7 @@ ul {
     min-width: 300px;
 }
 
-button {
+.top-button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-style: none;
@@ -131,6 +131,65 @@ button {
     width: 800px;
     text-align: end;
     font-weight: 900;
+}
+
+.Action-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-height: 300px;
+    margin: 64px;
+}
+
+.Action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 64px 256px;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.Action-title{
+    margin: 0;
+}
+
+.Action-left{
+    color: #F9FAF8;
+    min-width: 400px;
+    flex: 2;
+}
+
+.Action-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    flex: 1;
+}
+
+
+.bottom-signup{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 4px 16px;
+    margin: 0;
+}
+
+.Action-paragraph{
+    margin: 0;
+}
+
+.Copyright{
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 8px;
 }
 
 
